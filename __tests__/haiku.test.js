@@ -18,6 +18,6 @@ describe('Poem', () => {
   {
     const poem = new Poem("The first line of this poem");
     poem.wordSeperator();
-    expect(poem.line1[1]).toEqual("The");
+    expect(poem.line1[0]).toEqual("The");
   })
 })
