@@ -6,8 +6,8 @@ export class Poem {
   }
 
   wordSeperator(){
-    // this.line1 = this.line1.split(' ');
-    // this.line2 = this.line2.split(' ');
-    // this.line3 = this.line3.split(' ');
+    this.line1 = this.line1.split(' ');
+    this.line2 = this.line2.split(' ');
+    this.line3 = this.line3.split(' ');
     };
 }

@@ -16,8 +16,10 @@ describe('Poem', () => {
   })
   test('should seperate inputted sentences into words', () =>
   {
-    const poem = new Poem("The first line of this poem");
+    const poem = new Poem("The first line of this poem","The second line", "The third line");
     poem.wordSeperator();
     expect(poem.line1[0]).toEqual("The");
+    expect(poem.line2[1]).toEqual("second");
+    expect(poem.line3[2]).toEqual("line");
   })
 })
