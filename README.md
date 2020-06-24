@@ -57,9 +57,10 @@ SECOND:
  
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  |  Program will allow user to construct a one line poem |"This is line 1"  | poem.line1 !=null |
-  | Program will allow user to construct a 3 line poem |"This is line 1", "This is line 2", "this is line 3"|poem.line1!=null, poem.line2!=null, poem.line3!=null|
-  | Program will seperate sentence into words|"This is line 1"|sentenceArray = ["this", "is", "line", 1]|
+  |Program will allow user to construct a one line poem |"This is line 1"  | poem.line1 !=null |
+  |Program will allow user to construct a 3 line poem |"This is line 1", "This is line 2", "this is line 3"|poem.line1!=null, poem.line2!=null, poem.line3!=null|
+  |Program will seperate sentence into words|"This is line 1"|poem.line1 === ["this", "is", "line", "1"]|
+  |Program will subtract silent 'e' from end of words|"apple"|"appl"|
   
  
 ## Known Bugs
