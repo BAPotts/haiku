@@ -22,4 +22,11 @@ describe('Poem', () => {
     expect(poem.line2[1]).toEqual("second");
     expect(poem.line3[2]).toEqual("line");
   })
+  test('should subtract silent e from end of words', ()=>
+  {
+    const poem = new Poem("The first line of this poem","The second line", "The third line");
+    poem.wordSeperator();
+    poem.eSubtractor();
+    expect(poem.line1[2]).toEqual("lin");
+  })
 })
