@@ -1,4 +1,4 @@
-import Poem from '../src/haiku.js';
+import { Poem } from '../src/haiku.js';
 
 describe('Poem', () => {
 
