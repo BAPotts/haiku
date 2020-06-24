@@ -57,7 +57,7 @@ SECOND:
  
   | Program Behavior | Example Behavior | Example Output |
   | ----------- | ----------- | ----------- |
-  |  |  |  |
+  |  Program will allow user to construct a one line poem |"This is a poem"  | poem.line1 !=null |
   
  
 ## Known Bugs
