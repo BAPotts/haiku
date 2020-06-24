@@ -4,4 +4,11 @@ export class Poem {
     this.line2 = line2;
     this.line3 = line3;
   }
+
+  // wordSeperator(){
+  //   this.line1 = this.line1.split(' ');
+  //   this.line2 = this.line2.split(' ');
+  //   this.line3 = this.line3.split(' ');
+      
+  //   };
 }
