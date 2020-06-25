@@ -29,4 +29,12 @@ describe('Poem', () => {
     poem.eSubtractor();
     expect(poem.line1[2]).toEqual("lin");
   })
+  test('should identify vowels', ()=>
+  {
+    const poem = new Poem("The first line of this poem","The second line", "The third line");
+    poem.wordSeperator();
+    poem.eSubtractor();
+    poem.vowelFinder();
+    expect(poem.vowelFinder()).toEqual(11);
+  })
 })

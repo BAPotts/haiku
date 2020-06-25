@@ -11,20 +11,27 @@ export class Poem {
     this.line3 = this.line3.split(' ');
   };
 
-  eSubtractor(){
-    
+  eSubtractor(){    
     const values = Object.values(this);
-    
-  
     for (const value of values) {
       for(let i=0;i<value.length;i++){
         if(value[i][value[i].length-1]==='e'){
           let sub = value[i].slice(0, -1);
           value[i] = sub;
-          console.log(value[i]);
-        // };
         }
       };
     };
   };
+  vowelFinder(){
+    const values = Object.values(this);
+    for (const value of values) {
+      for(let i=0;i<value.length;i++){
+        for(let j=0;j<value[i].length;i++){
+        if(value[i][value[j]==='e'){
+          let sub = value[i].slice(0, -1);
+          value[i] = sub;
+        }
+      };
+    };
+  }
 };
