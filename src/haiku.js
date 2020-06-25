@@ -12,15 +12,18 @@ export class Poem {
   };
 
   eSubtractor(){
+    
     const values = Object.values(this);
-  
+    
   
     for (const value of values) {
       for(let i=0;i<value.length;i++){
-        if(value[i].charAt[value[i].length-1] ===("e")){
-          console.log("found it");
-            value[i].splice((value[i].length-1), 1);
-        };
+        if(value[i][value[i].length-1]==='e'){
+          let sub = value[i].slice(0, -1);
+          value[i] = sub;
+          console.log(value[i]);
+        // };
+        }
       };
     };
   };
